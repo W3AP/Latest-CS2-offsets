@@ -1,0 +1,165 @@
+{
+  "build": 14176,
+  "updated": "2026-08-20",
+
+  "client": {
+    "EntityList"           : "0x2555050",
+    "LocalPlayerController": "0x2384DB0",
+    "LocalPlayerPawn"      : "0x23AA118",
+    "ViewMatrix"           : "0x23AF550",
+    "ViewAngles"           : "0x23C01A8",
+    "GlobalVars"           : "0x2095D48",
+    "GameRules"            : "0x23A9BD8",
+    "WeaponC4"             : "0x2322DA0",
+    "PlantedC4s"           : "0x2374898"
+  },
+
+  "engine2": {
+    "BuildNumber": "0x60F594"
+  },
+
+  "entsys": {
+    "HighestEntityIndex": "0x2090"
+  },
+
+  "ent": {
+    "GameSceneNode"   : "0x330",
+    "Health"          : "0x34C",
+    "LifeState"       : "0x354",
+    "TeamNum"         : "0x3E7",
+    "OwnerEntity"     : "0x520",
+    "Flags"           : "0x3F4",
+    "Glow"            : "0xDE0",
+    "GlowBackfaceMult": "0xE38"
+  },
+
+  "glowprop": {
+    "GlowColor"        : "0x8",
+    "GlowType"         : "0x30",
+    "GlowTeam"         : "0x34",
+    "GlowRange"        : "0x38",
+    "GlowRangeMin"     : "0x3C",
+    "GlowColorOverride": "0x40",
+    "GlowTime"         : "0x48",
+    "GlowStartTime"    : "0x4C",
+    "Highlight"        : "0x50",
+    "Glowing"          : "0x51"
+  },
+
+  "scene": {
+    "AbsOrigin" : "0xC8",
+    "ModelState": "0x140"
+  },
+
+  "model": {
+    "BoneArray": "0x80"
+  },
+
+  "pawn": {
+    "WeaponServices"  : "0x1208",
+    "ItemServices"    : "0x1210",
+    "ObserverServices": "0x1220",
+    "MovementServices": "0x1248",
+    "CameraServices"  : "0x1240",
+    "BulletServices"  : "0x1490",
+    "AimPunchServices": "0x14B8",
+    "FlashDuration"   : "0x1428",
+    "Velocity"        : "0x430",
+    "ViewOffset"      : "0xE78",
+    "IsScoped"        : "0x1C78",
+    "ShotsFired"      : "0x1C8C",
+    "VelocityModifier": "0x1C94",
+    "ArmorValue"      : "0x1CA4",
+    "IDEntIndex"      : "0x342C"
+  },
+
+  "aimpunch": {
+    "UnpredBaseAngle": "0xA4"
+  },
+
+  "bomb": {
+    "BombTicking"    : "0x11A0",
+    "BombSite"       : "0x11A4",
+    "BlowAt"         : "0x11D0",
+    "TimerLength"    : "0x11D8",
+    "DefuseLength"   : "0x11EC",
+    "DefuseCountDown": "0x11F0",
+    "Defuser"        : "0x11F8"
+  },
+
+  "gvars": {
+    "CurrentTime": "0x2C",
+    "MapPath"    : "0x180"
+  },
+
+  "ctrl": {
+    "Pawn"                  : "0x6BC",
+    "PlayerName"            : "0x6F4",
+    "MoneyServices"         : "0x810",
+    "ActionTrackingServices": "0x820",
+    "DesiredFOV"            : "0x78C",
+    "CompetitiveRanking"    : "0x888",
+    "PlayerPawn"            : "0x914"
+  },
+
+  "money": {
+    "Account": "0x40"
+  },
+
+  "ats": {
+    "MatchStats"            : "0xA8",
+    "NumRoundKills"         : "0x128",
+    "NumRoundKillsHeadshots": "0x12C",
+    "TotalRoundDamage"      : "0x130"
+  },
+
+  "prstats": {
+    "Kills"  : "0x30",
+    "Deaths" : "0x34",
+    "Assists": "0x38",
+    "Damage" : "0x3C"
+  },
+
+  "bullet": {
+    "TotalHitsOnServer": "0x48"
+  },
+
+  "items": {
+    "HasHelmet": "0x49"
+  },
+
+  "observer": {
+    "Mode"        : "0x48",
+    "TargetHandle": "0x4C"
+  },
+
+  "weapons": {
+    "MyWeapons"   : "0x48",
+    "ActiveWeapon": "0x60"
+  },
+
+  "utlvec": {
+    "Size": "0x8",
+    "Data": "0x10"
+  },
+
+  "weapon": {
+    "ItemDefinitionIndex": "0x1BA",
+    "NextAttackTick"     : "0x16F0",
+    "Clip1"              : "0x1700",
+    "RecoilIndex"        : "0x1800",
+    "ZoomLevel"          : "0x1CE0",
+    "NeedsBoltAction"    : "0x1CFD"
+  },
+
+  "rules": {
+    "FreezePeriod": "0x40",
+    "WarmupPeriod": "0x41",
+    "MatchStarted": "0xB0"
+  },
+
+  "es": {
+    "EntityIdentity": "0x10",
+    "DesignerName"  : "0x20"
+  }
+}
