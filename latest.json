@@ -1,17 +1,17 @@
 {
-  "build": 14176,
-  "updated": "2026-08-20",
+  "build": 14178,
+  "updated": "2026-09-01",
 
   "client": {
-    "EntityList"           : "0x2555050",
-    "LocalPlayerController": "0x2384DB0",
-    "LocalPlayerPawn"      : "0x23AA118",
-    "ViewMatrix"           : "0x23AF550",
-    "ViewAngles"           : "0x23C01A8",
-    "GlobalVars"           : "0x2095D48",
-    "GameRules"            : "0x23A9BD8",
-    "WeaponC4"             : "0x2322DA0",
-    "PlantedC4s"           : "0x2374898"
+    "EntityList"           : "0x2571220",
+    "LocalPlayerController": "0x23A0F30",
+    "LocalPlayerPawn"      : "0x23C6268",
+    "ViewMatrix"           : "0x23CB830",
+    "ViewAngles"           : "0x23DC2F8",
+    "GlobalVars"           : "0x20AF5F0",
+    "GameRules"            : "0x23C5D28",
+    "WeaponC4"             : "0x233EF10",
+    "PlantedC4s"           : "0x2390A18"
   },
 
   "engine2": {
