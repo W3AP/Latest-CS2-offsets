@@ -1,6 +1,6 @@
 {
-  "build": 14178,
-  "updated": "2026-09-01",
+  "build": 14180,
+  "updated": "2026-09-08",
 
   "client": {
     "EntityList"           : "0x2571220",
@@ -29,6 +29,7 @@
     "TeamNum"         : "0x3E7",
     "OwnerEntity"     : "0x520",
     "Flags"           : "0x3F4",
+    "SubclassID"      : "0x380",
     "Glow"            : "0xDE0",
     "GlowBackfaceMult": "0xE38"
   },
@@ -150,6 +151,24 @@
     "RecoilIndex"        : "0x1800",
     "ZoomLevel"          : "0x1CE0",
     "NeedsBoltAction"    : "0x1CFD"
+  },
+
+  "wpn_vdata": {
+    "WeaponType"        : "0x520",
+    "MaxSpeed"          : "0x750",
+    "IsFullAuto"        : "0x734",
+    "NumBullets"        : "0x738",
+    "CycleTime"         : "0x740",
+    "Damage"            : "0x828",
+    "HeadshotMultiplier": "0x82C",
+    "ArmorRatio"        : "0x830",
+    "Penetration"       : "0x834",
+    "Range"             : "0x838",
+    "RangeModifier"     : "0x83C",
+    "Spread"            : "0x758",
+    "InaccuracyMove"    : "0x790",
+    "InaccuracyJumpApex": "0x7C4",
+    "InaccuracyStand"   : "0x768"
   },
 
   "rules": {
